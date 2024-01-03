@@ -39,9 +39,6 @@ class API {
   }
 
   public async deleteTodo<T>( data: any): Promise<T> {
-    console.log(data);
-   
-
     try {
       const response: AxiosResponse<T> = await axios.delete(`${this.baseUrl}/remove`, {data: data});
       return response.data;
