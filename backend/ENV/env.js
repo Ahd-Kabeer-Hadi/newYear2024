@@ -1,4 +1,4 @@
-const MONGODB_URI = 'mongodb+srv://ahdkabeerpi:hdkbeerPI99@cluster0.jd4wsu0.mongodb.net/todos'
+const MONGODB_URI = 'mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>/todos'
 
 module.exports = {
     MONGODB_URI
